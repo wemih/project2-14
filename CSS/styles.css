@@ -1,0 +1,52 @@
+main{
+    padding-top: 150px;
+}
+img{
+    width: 200px;
+    height: 200px;
+
+}
+.image:hover{
+    opacity: 0.3;
+}
+
+
+.column {
+    float: left;
+    width: 25.00%;
+    padding: 0px;
+    text-align: center;
+  }
+  
+
+.row::after {
+    clear: both;
+    display: table;
+  }
+
+.text{
+    text-align: left;
+}
+.navicon{
+    width: 50px;
+    height: 50px;
+}
+.radius{
+    border-radius: 50%; 
+    opacity: 1 !important;   
+}
+.padding{
+    padding-top: 25px;
+    opacity: 1;
+}
+.center{
+    text-align: center;
+}
+
+main{
+    padding-bottom: 100px;
+}
+.float{
+    float:right;
+    margin: 0 0 0 15px;
+}
